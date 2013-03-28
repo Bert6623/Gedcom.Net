@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29189E76-E22E-49EC-9479-6812A4330BDB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GSALib</RootNamespace>
+    <AssemblyName>GSALib</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants\Access.cs" />
+    <Compile Include="Constants\Encoding.cs" />
+    <Compile Include="Constants\Filtering.cs" />
+    <Compile Include="Constants\Languages.cs" />
+    <Compile Include="Constants\Output.cs" />
+    <Compile Include="Constants\SearchRegion.cs" />
+    <Compile Include="Constants\Suggestion.cs" />
+    <Compile Include="Constants\XMLTags.cs" />
+    <Compile Include="Exceptions\GSAHostNotFoundInAppSettingsException.cs" />
+    <Compile Include="Exceptions\GSAInvalidFileException.cs" />
+    <Compile Include="Exceptions\GSAInvalidURLException.cs" />
+    <Compile Include="Exceptions\GSANeedNetworkCredentailsException.cs" />
+    <Compile Include="GSA\ClientAccess.cs" />
+    <Compile Include="GSA\ParametricResult.cs" />
+    <Compile Include="GSA\ParametricNavigationResponse.cs" />
+    <Compile Include="GSA\KeyMatches.cs" />
+    <Compile Include="GSA\OneBoxResponse.cs" />
+    <Compile Include="GSA\OneBoxResult.cs" />
+    <Compile Include="GSA\Query.cs" />
+    <Compile Include="GSA\QueryBuilder.cs" />
+    <Compile Include="GSA\Response.cs" />
+    <Compile Include="GSA\ResponseBuilder.cs" />
+    <Compile Include="GSA\Result.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\QueryFilter.cs" />
+    <Compile Include="Utils\Util.cs" />
+    <Compile Include="Utils\WebUtil.cs" />
+    <Compile Include="Utils\XMLParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GSALib.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

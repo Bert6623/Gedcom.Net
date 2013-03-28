@@ -1,0 +1,85 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 1em;
+}
+
+#sidebar
+{
+	position: absolute;
+	top: 5em;
+	left: 0;
+	bottom: 0;
+	right: 80%;
+	overflow: auto;
+	padding: 0 1em;
+}
+
+#content
+{
+	position: absolute;
+	top: 5em;
+	left: 20%;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	padding: 0 1em;
+}
+
+
+#content ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#content ul li
+{
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+	
+	border-bottom: dashed 1px black;
+}
+
+
+#content ul li .parents
+{
+	padding-left: 2em;
+}
+
+#content ul li .spouse
+{
+	padding-left: 2em;
+}
+
+#content ul li .children
+{
+	padding-left: 2em;
+}
+
+#content ul li .birth
+{
+	padding-left: 2em;
+}
+
+#content ul li .death
+{
+	padding-left: 2em;
+}

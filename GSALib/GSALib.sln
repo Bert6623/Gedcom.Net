@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSALib", "GSALib.csproj", "{29189E76-E22E-49EC-9479-6812A4330BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSAMVC", "..\GSAMVC\GSAMVC.csproj", "{4850EC5C-FB63-424C-A917-A29BA110ABDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSALib.Tests", "..\GSAMVC.Tests\GSALib.Tests.csproj", "{248D755F-D4BD-47B7-9EAE-2B09E8B65C48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29189E76-E22E-49EC-9479-6812A4330BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29189E76-E22E-49EC-9479-6812A4330BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29189E76-E22E-49EC-9479-6812A4330BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29189E76-E22E-49EC-9479-6812A4330BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4850EC5C-FB63-424C-A917-A29BA110ABDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4850EC5C-FB63-424C-A917-A29BA110ABDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4850EC5C-FB63-424C-A917-A29BA110ABDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4850EC5C-FB63-424C-A917-A29BA110ABDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248D755F-D4BD-47B7-9EAE-2B09E8B65C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248D755F-D4BD-47B7-9EAE-2B09E8B65C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248D755F-D4BD-47B7-9EAE-2B09E8B65C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248D755F-D4BD-47B7-9EAE-2B09E8B65C48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

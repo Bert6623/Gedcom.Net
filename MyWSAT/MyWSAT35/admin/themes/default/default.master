@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="default.master.cs" Inherits="admin_themes_default_default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+  <title></title>
+  <%-- favicon setup --%>
+  <link id="Link3" runat="server" rel="shortcut icon" href="~/favicon.gif" type="image/x-icon" />
+  <link id="Link4" runat="server" rel="icon" href="~/favicon.gif" type="image/ico" />
+  <%-- stylesheet --%>
+  <link href="default.css" rel="stylesheet" type="text/css" />
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+  <%-- Ajax script manager --%>
+  <asp:ScriptManager ID="ScriptManager1" runat="server" EnableViewState="False">
+  </asp:ScriptManager>
+  <%-- div wrapper for header control --%>
+  <div class="headerControl">
+    <div class="loginNameAndStatus">
+      Howdy,
+      <asp:LoginName ID="LoginName1" runat="server" />
+      &nbsp;&nbsp; | &nbsp;&nbsp;
+      <asp:LoginStatus ID="LoginStatus1" runat="server" />
+      &nbsp;&nbsp; | &nbsp;&nbsp;
+      <asp:HyperLink ID="lnkTotalRegisteredUsers" NavigateUrl="~/admin/users-a-z.aspx?az=%" runat="server" ToolTip="The total number of registered users">
+        Registered:<asp:Literal runat="server" ID="lblTotalUsers" />
+      </asp:HyperLink>
+      &nbsp;&nbsp; | &nbsp;&nbsp;
+      <asp:HyperLink ID="lnkTotalUsersOnline" NavigateUrl="~/admin/online-users.aspx" runat="server" ToolTip="The number of users currently visiting the site">
+        Online:<asp:Literal runat="server" ID="lblOnlineUsers" />
+      </asp:HyperLink>
+    </div>
+    <div class="dateTime">
+      <asp:Literal ID="ltlDateTime" runat="server"></asp:Literal>
+    </div>
+    <div class="headerTitleText">
+      ADMINISTRATION</div>
+  </div>
+  <%-- navigation menu --%>
+  <div class="aspMenuDivWrap">
+    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssSelectorClass="Menu1" DataSourceID="SiteMapDataSource1" OnMenuItemDataBound="Menu1_MenuItemDataBound">
+    </asp:Menu>
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" SiteMapProvider="AdminSiteMapProvider" ShowStartingNode="false" />
+  </div>
+  <%-- page content placeholder --%>
+  <div class="masterContentWrap">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+  </div>
+  <%-- padding above footer --%>
+  <div class="pageBottomPadding"></div>
+  <%-- footer --%>
+  <div class="footer">
+    <div class="footerTitleText">
+        MyWSAT 3.5.4 by <asp:HyperLink ID="LnkAbout" runat="server" NavigateUrl="~/admin/about/contact-developer.aspx" ToolTip="ASP.Net Development by Hunzonian">Hunzonian</asp:HyperLink> 
+        <asp:Literal ID="dateYear" runat="server"></asp:Literal> 
+    </div>
+  </div>
+  </form>
+</body>
+</html>

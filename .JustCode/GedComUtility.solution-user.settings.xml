@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0.9" Timestamp="01af2f66-d77b-4925-833a-d2702b3d5e9a">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>C:\Users\rwarthen\Gedcom.NET\WindowsService1\DNAServiceApp.cs</Path>
+        <ProjectFullName>C:\Users\rwarthen\Gedcom.NET\WindowsService1\DNAService.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>13</Column>
+          <Text>Unknown method &lt;/C&gt;InitializeComponent&lt;//C&gt;</Text>
+          <Line>16</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>C:\Users\rwarthen\Gedcom.NET\WindowsService1\DNAServiceApp.Designer.cs</Path>
+        <ProjectFullName>C:\Users\rwarthen\Gedcom.NET\WindowsService1\DNAService.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>19</Column>
+          <Text>No suitable member found to override</Text>
+          <Line>14</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>18</Column>
+          <Text>Unknown method &lt;/C&gt;Dispose&lt;//C&gt; of &lt;/C&gt;DNAService.DNAServiceApp&lt;//C&gt;</Text>
+          <Line>20</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>18</Column>
+          <Text>Unknown member &lt;/C&gt;ServiceName&lt;//C&gt; of &lt;/C&gt;DNAService.DNAServiceApp&lt;//C&gt;</Text>
+          <Line>32</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>C:\Users\rwarthen\Gedcom.NET\Html2Txt\mshome.htm</Path>
+        <ProjectFullName>C:\Users\rwarthen\Gedcom.NET\Html2Txt\Html2Txt.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>1</Column>
+          <Text>Unexpected closing tag &lt;/BASEFONT&gt;</Text>
+          <Line>574</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>C:\Users\rwarthen\Gedcom.NET\HAPExplorer\mshome.htm</Path>
+        <ProjectFullName>C:\Users\rwarthen\Gedcom.NET\HAPExplorer\HAPExplorer.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>1</Column>
+          <Text>Unexpected closing tag &lt;/BASEFONT&gt;</Text>
+          <Line>574</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      DIRECTORY ACCESS RULES
+    </title>
+    <text>
+      To create or edit security permissions for a directory within this site, click on a folder in the list of folders on the left.
+    </text>
+  </content>
+  <content>
+    <title>
+      CURRENT PERMISSIONS
+    </title>
+    <text>
+      To check current permissions for a particular directory, simply click a folder in the folder list. Current security settings are shown in the gridview.
+    </text>
+  </content>
+  <content>
+    <title>
+      EDIT PERMISSIONS
+    </title>
+    <text>
+      To edit the current permissions, use the "Delete Rule" and the "Up" and "Down" button on the gridview.
+    </text>
+  </content>
+  <content>
+    <title>
+      CREATE NEW RULE
+    </title>
+    <text>
+      To create a new security permission for the currently selected folder, first select the "Allow" or "Deny" radio buttons depending on which type of permission you want to create. Then select the appropriate radio button in the "Rule applies to" section. If you select "This Role" then you also need to select a role from the corresponding dropdown menu. You can also select "This User" and type in a user name. Finally, click the "Create Rule" button to complete the transaction. You can repeat this process as many times as needed.
+    </text>
+  </content>
+</wrap>

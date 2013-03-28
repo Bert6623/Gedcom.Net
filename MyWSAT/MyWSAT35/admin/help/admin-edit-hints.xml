@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      REGISTER Hint FILE
+    </title>
+    <text>
+      You can register as many Hint files as needed. Once in the system, you can simply click on the file name in the gridview to open the file for editing. To add a Hint file to the list, fill in the blanks within the gridview and click the "Insert" button. Make sure the file URL starts with a root reference like this: ~/foldername/filename.
+    </text>
+  </content>
+  <content>
+    <title>
+      DID YOU KNOW?
+    </title>
+    <text>
+      You can register almost any kind of file to make it available for editing. .aspx, .aspx.cs or vb, web.config, xml, txt, html etc. A convenient way to make quick edits for the technically savy.
+    </text>
+  </content>
+</wrap>

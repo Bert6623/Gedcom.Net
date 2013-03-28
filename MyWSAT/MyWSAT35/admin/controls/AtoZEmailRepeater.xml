@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<atozletters>
+  <letter name="All">
+    <name>All</name>
+    <value>~/admin/email-broadcast.aspx?az=%</value>
+  </letter>
+  <letter name="A">
+    <name>A</name>
+    <value>~/admin/email-broadcast.aspx?az=A</value>
+  </letter>
+  <letter name="B">
+    <name>B</name>
+    <value>~/admin/email-broadcast.aspx?az=B</value>
+  </letter>
+  <letter name="C">
+    <name>C</name>
+    <value>~/admin/email-broadcast.aspx?az=C</value>
+  </letter>
+  <letter name="D">
+    <name>D</name>
+    <value>~/admin/email-broadcast.aspx?az=D</value>
+  </letter>
+  <letter name="E">
+    <name>E</name>
+    <value>~/admin/email-broadcast.aspx?az=E</value>
+  </letter>
+  <letter name="F">
+    <name>F</name>
+    <value>~/admin/email-broadcast.aspx?az=F</value>
+  </letter>
+  <letter name="G">
+    <name>G</name>
+    <value>~/admin/email-broadcast.aspx?az=G</value>
+  </letter>
+  <letter name="H">
+    <name>H</name>
+    <value>~/admin/email-broadcast.aspx?az=H</value>
+  </letter>
+  <letter name="I">
+    <name>I</name>
+    <value>~/admin/email-broadcast.aspx?az=I</value>
+  </letter>
+  <letter name="J">
+    <name>J</name>
+    <value>~/admin/email-broadcast.aspx?az=J</value>
+  </letter>
+  <letter name="K">
+    <name>K</name>
+    <value>~/admin/email-broadcast.aspx?az=K</value>
+  </letter>
+  <letter name="L">
+    <name>L</name>
+    <value>~/admin/email-broadcast.aspx?az=L</value>
+  </letter>
+  <letter name="M">
+    <name>M</name>
+    <value>~/admin/email-broadcast.aspx?az=M</value>
+  </letter>
+  <letter name="N">
+    <name>N</name>
+    <value>~/admin/email-broadcast.aspx?az=N</value>
+  </letter>
+  <letter name="O">
+    <name>O</name>
+    <value>~/admin/email-broadcast.aspx?az=O</value>
+  </letter>
+  <letter name="P">
+    <name>P</name>
+    <value>~/admin/email-broadcast.aspx?az=P</value>
+  </letter>
+  <letter name="Q">
+    <name>Q</name>
+    <value>~/admin/email-broadcast.aspx?az=Q</value>
+  </letter>
+  <letter name="R">
+    <name>R</name>
+    <value>~/admin/email-broadcast.aspx?az=R</value>
+  </letter>
+  <letter name="S">
+    <name>S</name>
+    <value>~/admin/email-broadcast.aspx?az=S</value>
+  </letter>
+  <letter name="T">
+    <name>T</name>
+    <value>~/admin/email-broadcast.aspx?az=T</value>
+  </letter>
+  <letter name="U">
+    <name>U</name>
+    <value>~/admin/email-broadcast.aspx?az=U</value>
+  </letter>
+  <letter name="V">
+    <name>V</name>
+    <value>~/admin/email-broadcast.aspx?az=V</value>
+  </letter>
+  <letter name="W">
+    <name>W</name>
+    <value>~/admin/email-broadcast.aspx?az=W</value>
+  </letter>
+  <letter name="X">
+    <name>X</name>
+    <value>~/admin/email-broadcast.aspx?az=X</value>
+  </letter>
+  <letter name="Y">
+    <name>Y</name>
+    <value>~/admin/email-broadcast.aspx?az=Y</value>
+  </letter>
+  <letter name="Z">
+    <name>Z</name>
+    <value>~/admin/email-broadcast.aspx?az=Z</value>
+  </letter>
+</atozletters>

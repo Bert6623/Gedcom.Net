@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      USERS A-Z
+    </title>
+    <text>
+      To find users alphabetically by user name, use the a-z button bar on top.
+    </text>
+  </content>
+  <content>
+    <title>
+      EMAIL SELECTED USERS
+    </title>
+    <text>
+      To email only the selected users, first select users in the gridview by clicking on the checkboxes on the left side.
+      Fill in the "Subject" and "From" fields, type your message or copy and paste your html and click on the "Send Email" button.
+    </text>
+  </content>
+  <content>
+    <title>
+      EMAIL ALL USERS
+    </title>
+    <text>
+      To email all registered users, follow the procedure above and click the "Send To All" button.
+    </text>
+  </content>
+  <content>
+    <title>
+      EMAIL A ROLE GROUP
+    </title>
+    <text>
+      To email all registered users in a role group, follow the procedure above and then from the "Send To Role" drop down list select the desired role.
+    </text>
+  </content>
+  <content>
+    <title>
+      EDIT USER INFO
+    </title>
+    <text>
+      To edit user info like roles and email address, simply click on the user name to display the selected user's account information on a modal dialogue.
+    </text>
+  </content>
+  <content>
+    <title>
+      WYSIWYG EDITOR
+    </title>
+    <text>
+      To take advantage of the built in text editor / word processor, click on the gray bar on top of the text field to reveal the available options.
+    </text>
+  </content>
+  <content>
+    <title>
+      HTML VS PLAIN TEXT
+    </title>
+    <text>
+      If you wish send email in html format, you don't have to do anything as the html radio button is selected by default.
+    </text>
+  </content>
+  <content>
+    <title>
+      EMAIL PRIORITY
+    </title>
+    <text>
+      To set the email priority, simply select the appropriate radio button: high, default, or low.
+    </text>
+  </content>
+</wrap>

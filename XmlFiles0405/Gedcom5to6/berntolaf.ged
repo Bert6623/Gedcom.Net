@@ -1,0 +1,112 @@
+0 HEAD
+1 SOUR IGI
+2 VERS 5.0
+2 NAME International Genealogical Index (R)
+2 CORP The Church of Jesus Christ of Latter-day Saints
+3 ADDR 50 East North Temple Street
+4 CONT Salt Lake City, Utah 84150
+2 DATA International Genealogical Index
+3 DATE 13 February 2004
+3 COPR Copyright (c) 1980, 2002
+1 DEST PAF
+1 DATE 13 February 2004
+2 TIME 03:50:51
+1 FILE Skonnord-1860
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 CHAR ANSEL
+1 SUBM @SUB01@
+1 SUBN @N01@
+0 @SUB01@ SUBM
+1 NAME Created by FamilySearch (TM) Internet Genealogy Service
+1 ADDR 50 East North Temple Street
+2 CONT Salt Lake City, Utah 84150
+0 @N01@ SUBN
+1 DESC 1
+1 ORDI N
+0 @I100294220729@ INDI
+1 NAME Bernt Olaf /Skonnord/
+1 SEX M
+1 BIRT
+2 DATE 14 JUN 1860
+2 PLAC Snertingdal, Oppland, Norway
+1 FAMC @F306458249@
+1 SOUR @S01@
+0 @I100294220735@ INDI
+1 NAME Ole Eriksen /Skonnord/
+1 SEX M
+1 BIRT
+2 DATE 17 NOV 1817
+2 PLAC , , Norway
+1 DEAT
+2 DATE 06 JAN 1900
+2 PLAC , , Norway
+1 FAMS @F306458249@
+1 SOUR @S01@
+0 @I100294220736@ INDI
+1 NAME Nikoline Beate Cristensdatter /Hoff/
+1 SEX F
+1 FAMS @F306458249@
+1 SOUR @S01@
+0 @I100294220730@ INDI
+1 NAME Edvard Olsen /Skonnord/
+1 SEX M
+1 BIRT
+2 DATE        1845
+2 PLAC , , Norway
+1 FAMC @F306458249@
+1 SOUR @S01@
+0 @I100294220731@ INDI
+1 NAME Martinus /Skonnord/
+1 SEX M
+1 BIRT
+2 DATE        1856
+2 PLAC Snertingdal, Oppland, Norway
+1 FAMC @F306458249@
+1 SOUR @S01@
+0 @I100294220732@ INDI
+1 NAME Olaf /Skonnord/
+1 SEX M
+1 BIRT
+2 PLAC , , Norway
+1 DEAT
+2 DATE 16 APR 1958
+2 PLAC Of, , , Norway
+1 FAMC @F306458249@
+1 SOUR @S01@
+0 @I100294220733@ INDI
+1 NAME Johannes Olsen /Skonnord/
+1 SEX M
+1 BIRT
+2 DATE        1872
+2 PLAC , , Norway
+1 FAMC @F306458249@
+1 SOUR @S01@
+0 @I100294220734@ INDI
+1 NAME Mathia /Skonnord/
+1 SEX F
+1 BIRT
+2 DATE        1864
+2 PLAC , , Norway
+1 FAMC @F306458249@
+1 SOUR @S01@
+0 @F306458249@ FAM
+1 HUSB @I100294220735@
+1 WIFE @I100294220736@
+1 CHIL @I100294220729@
+1 CHIL @I100294220730@
+1 CHIL @I100294220731@
+1 CHIL @I100294220732@
+1 CHIL @I100294220733@
+1 CHIL @I100294220734@
+0 @S01@ SOUR
+1 AUTH The Church of Jesus Christ of Latter-day Saints
+1 TITL International Genealogical Index (R)
+1 PUBL Copyright (c) 1980, 2002, data as of February 13, 2004
+1 REPO @R01@
+0 @R01@ REPO
+1 NAME Family History Library
+1 ADDR 35 N West Temple Street
+2 CONT Salt Lake City, Utah 84150  USA
+0 TRLR

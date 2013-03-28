@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      WHAT ARE ROLES?
+    </title>
+    <text>
+        Roles are security based permissions that can be assigned to registered user of the site. Users can have any number of role based security permissions that the administrator deems appropriate. Certain parts of the application may have security permissions assigned to them to make the information they contain available only to those users with the required permisions.
+    </text>
+  </content>
+  <content>
+    <title>
+      CREATE A ROLE
+    </title>
+    <text>
+        To create a new role, simply enter its name into the textbox on top and click the "Add Role" button. Once it is created, it is then available to the administrator to be used and assigned to any registered user account.
+    </text>
+  </content>
+  <content>
+    <title>
+      DELETE A ROLE
+    </title>
+    <text>
+        To delete a role, select the checkboxes on the left side of the gridview and click the "Delete Selected" button.
+    </text>
+  </content>
+</wrap>

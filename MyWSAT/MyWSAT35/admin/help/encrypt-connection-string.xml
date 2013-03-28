@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      CONNECTION STRING SECURITY
+    </title>
+    <text>
+      Use this page to encrypt or decrypt the connection string present in your web.config file. Encrypting the connection string applies security against malicious attacker who may hack their way into the configuration file and retrieve the database's user name and password.
+    </text>
+  </content>
+  <content>
+    <title>
+      ENCRYPT CONNECTION STRING
+    </title>
+    <text>
+      To encrypt the connection string in the web.config file, simply click the "Encrypt Connection String" button.
+    </text>
+  </content>
+  <content>
+    <title>
+      DECRYPT CONNECTION STRING
+    </title>
+    <text>
+      To decrypt the connection string in the web.config file, simply click the "Decrypt Connection String" button.
+    </text>
+  </content>
+</wrap>

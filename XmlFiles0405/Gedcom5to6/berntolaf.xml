@@ -1,0 +1,226 @@
+<GEDCOM>
+  <HEAD>
+    <SOUR value="IGI">
+      <VERS value="5.0">
+      </VERS>
+      <NAME value="International Genealogical Index (R)">
+      </NAME>
+      <CORP value="The Church of Jesus Christ of Latter-day Saints">
+        <ADDR value="50 East North Temple Street">
+          <CONT value="Salt Lake City, Utah 84150">
+          </CONT>
+        </ADDR>
+      </CORP>
+      <DATA value="International Genealogical Index">
+        <DATE value="13 February 2004">
+        </DATE>
+        <COPR value="Copyright (c) 1980, 2002">
+        </COPR>
+      </DATA>
+    </SOUR>
+    <DEST value="PAF">
+    </DEST>
+    <DATE value="13 February 2004">
+      <TIME value="03:50:51">
+      </TIME>
+    </DATE>
+    <FILE value="Skonnord-1860">
+    </FILE>
+    <GEDC>
+      <VERS value="5.5">
+      </VERS>
+      <FORM value="LINEAGE-LINKED">
+      </FORM>
+    </GEDC>
+    <CHAR value="ANSEL">
+    </CHAR>
+    <SUBM idref="SUB01">
+    </SUBM>
+    <SUBN idref="N01">
+    </SUBN>
+  </HEAD>
+  <SUBM id="SUB01">
+    <NAME value="Created by FamilySearch (TM) Internet Genealogy Service">
+    </NAME>
+    <ADDR value="50 East North Temple Street">
+      <CONT value="Salt Lake City, Utah 84150">
+      </CONT>
+    </ADDR>
+  </SUBM>
+  <SUBN id="N01">
+    <DESC value="1">
+    </DESC>
+    <ORDI value="N">
+    </ORDI>
+  </SUBN>
+  <INDI id="I100294220729">
+    <NAME value="Bernt Olaf /Skonnord/">
+    </NAME>
+    <SEX value="M">
+    </SEX>
+    <BIRT>
+      <DATE value="14 JUN 1860">
+      </DATE>
+      <PLAC value="Snertingdal, Oppland, Norway">
+      </PLAC>
+    </BIRT>
+    <FAMC idref="F306458249">
+    </FAMC>
+    <SOUR idref="S01">
+    </SOUR>
+  </INDI>
+  <INDI id="I100294220735">
+    <NAME value="Ole Eriksen /Skonnord/">
+    </NAME>
+    <SEX value="M">
+    </SEX>
+    <BIRT>
+      <DATE value="17 NOV 1817">
+      </DATE>
+      <PLAC value=", , Norway">
+      </PLAC>
+    </BIRT>
+    <DEAT>
+      <DATE value="06 JAN 1900">
+      </DATE>
+      <PLAC value=", , Norway">
+      </PLAC>
+    </DEAT>
+    <FAMS idref="F306458249">
+    </FAMS>
+    <SOUR idref="S01">
+    </SOUR>
+  </INDI>
+  <INDI id="I100294220736">
+    <NAME value="Nikoline Beate Cristensdatter /Hoff/">
+    </NAME>
+    <SEX value="F">
+    </SEX>
+    <FAMS idref="F306458249">
+    </FAMS>
+    <SOUR idref="S01">
+    </SOUR>
+  </INDI>
+  <INDI id="I100294220730">
+    <NAME value="Edvard Olsen /Skonnord/">
+    </NAME>
+    <SEX value="M">
+    </SEX>
+    <BIRT>
+      <DATE value="       1845">
+      </DATE>
+      <PLAC value=", , Norway">
+      </PLAC>
+    </BIRT>
+    <FAMC idref="F306458249">
+    </FAMC>
+    <SOUR idref="S01">
+    </SOUR>
+  </INDI>
+  <INDI id="I100294220731">
+    <NAME value="Martinus /Skonnord/">
+    </NAME>
+    <SEX value="M">
+    </SEX>
+    <BIRT>
+      <DATE value="       1856">
+      </DATE>
+      <PLAC value="Snertingdal, Oppland, Norway">
+      </PLAC>
+    </BIRT>
+    <FAMC idref="F306458249">
+    </FAMC>
+    <SOUR idref="S01">
+    </SOUR>
+  </INDI>
+  <INDI id="I100294220732">
+    <NAME value="Olaf /Skonnord/">
+    </NAME>
+    <SEX value="M">
+    </SEX>
+    <BIRT>
+      <PLAC value=", , Norway">
+      </PLAC>
+    </BIRT>
+    <DEAT>
+      <DATE value="16 APR 1958">
+      </DATE>
+      <PLAC value="Of, , , Norway">
+      </PLAC>
+    </DEAT>
+    <FAMC idref="F306458249">
+    </FAMC>
+    <SOUR idref="S01">
+    </SOUR>
+  </INDI>
+  <INDI id="I100294220733">
+    <NAME value="Johannes Olsen /Skonnord/">
+    </NAME>
+    <SEX value="M">
+    </SEX>
+    <BIRT>
+      <DATE value="       1872">
+      </DATE>
+      <PLAC value=", , Norway">
+      </PLAC>
+    </BIRT>
+    <FAMC idref="F306458249">
+    </FAMC>
+    <SOUR idref="S01">
+    </SOUR>
+  </INDI>
+  <INDI id="I100294220734">
+    <NAME value="Mathia /Skonnord/">
+    </NAME>
+    <SEX value="F">
+    </SEX>
+    <BIRT>
+      <DATE value="       1864">
+      </DATE>
+      <PLAC value=", , Norway">
+      </PLAC>
+    </BIRT>
+    <FAMC idref="F306458249">
+    </FAMC>
+    <SOUR idref="S01">
+    </SOUR>
+  </INDI>
+  <FAM id="F306458249">
+    <HUSB idref="I100294220735">
+    </HUSB>
+    <WIFE idref="I100294220736">
+    </WIFE>
+    <CHIL idref="I100294220729">
+    </CHIL>
+    <CHIL idref="I100294220730">
+    </CHIL>
+    <CHIL idref="I100294220731">
+    </CHIL>
+    <CHIL idref="I100294220732">
+    </CHIL>
+    <CHIL idref="I100294220733">
+    </CHIL>
+    <CHIL idref="I100294220734">
+    </CHIL>
+  </FAM>
+  <SOUR id="S01">
+    <AUTH value="The Church of Jesus Christ of Latter-day Saints">
+    </AUTH>
+    <TITL value="International Genealogical Index (R)">
+    </TITL>
+    <PUBL value="Copyright (c) 1980, 2002, data as of February 13, 2004">
+    </PUBL>
+    <REPO idref="R01">
+    </REPO>
+  </SOUR>
+  <REPO id="R01">
+    <NAME value="Family History Library">
+    </NAME>
+    <ADDR value="35 N West Temple Street">
+      <CONT value="Salt Lake City, Utah 84150  USA">
+      </CONT>
+    </ADDR>
+  </REPO>
+  <TRLR>
+  </TRLR>
+</GEDCOM>

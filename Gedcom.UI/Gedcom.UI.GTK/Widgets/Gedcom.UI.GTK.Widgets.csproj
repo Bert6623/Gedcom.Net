@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F3E8E6A-739F-42AC-AD30-D01790C95EC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Gedcom.UI.GTK.Widgets</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateDocumentation>true</GenerateDocumentation>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateDocumentation>true</GenerateDocumentation>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - VS|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug - VS\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - VS|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release - VS\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="pango-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="Mono.Cairo" />
+    <Reference Include="Mono.Posix" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="gtk-gui\gui.stetic" />
+    <EmbeddedResource Include="gtk-gui\objects.xml">
+      <LogicalName>objects.xml</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="gtk-gui\generated.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="AddressView.cs" />
+    <Compile Include="ChildrenListModel.cs" />
+    <Compile Include="DuplicateIndividualView.cs" />
+    <Compile Include="DuplicateView.cs" />
+    <Compile Include="EventListModel.cs" />
+    <Compile Include="EventModel.cs" />
+    <Compile Include="FactDetailView.cs" />
+    <Compile Include="FactView.cs" />
+    <Compile Include="FamilyMoreView.cs" />
+    <Compile Include="FamilyView.cs" />
+    <Compile Include="GenericListModel.cs" />
+    <Compile Include="GtkCellRendererButton.cs" />
+    <Compile Include="GtkDropDownAction.cs" />
+    <Compile Include="IGedcomIndividualList.cs" />
+    <Compile Include="IndividualList.cs" />
+    <Compile Include="IndividualListComboBox.cs" />
+    <Compile Include="IndividualListModel.cs" />
+    <Compile Include="IndividualView.cs" />
+    <Compile Include="ListModelUtil.cs" />
+    <Compile Include="MarriageListModel.cs" />
+    <Compile Include="MarriageView.cs" />
+    <Compile Include="MultimediaFileListModel.cs" />
+    <Compile Include="MultimediaRecordListModel.cs" />
+    <Compile Include="NameView.cs" />
+    <Compile Include="NoteListModel.cs" />
+    <Compile Include="NotesView.cs" />
+    <Compile Include="ParentsListModel.cs" />
+    <Compile Include="PedigreeBox.cs" />
+    <Compile Include="PedigreeView.cs" />
+    <Compile Include="RepositoryCitationListModel.cs" />
+    <Compile Include="RepositoryList.cs" />
+    <Compile Include="RepositoryListModel.cs" />
+    <Compile Include="RepositoryView.cs" />
+    <Compile Include="ScrapBookView.cs" />
+    <Compile Include="SiblingsListModel.cs" />
+    <Compile Include="SourceCitationList.cs" />
+    <Compile Include="SourceCitationListModel.cs" />
+    <Compile Include="SourceCitationView.cs" />
+    <Compile Include="SourceList.cs" />
+    <Compile Include="SourceListModel.cs" />
+    <Compile Include="SourceView.cs" />
+    <Compile Include="SpouseListModel.cs" />
+    <Compile Include="SpouseView.cs" />
+    <Compile Include="SummaryView.cs" />
+    <Compile Include="SubmitterView.cs" />
+    <Compile Include="HeaderView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.IndividualList.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.FamilyView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.IndividualView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.SummaryView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.ScrapBookView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.SourceList.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.SourceView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.RepositoryList.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.RepositoryView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.SourceCitationList.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.SourceCitationView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.NotesView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.FactView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.FamilyMoreView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.SpouseView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.PedigreeView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.NameView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.DuplicateView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.DuplicateIndividualView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.MarriageView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.IndividualListComboBox.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.FactDetailView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.AddressView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.SubmitterView.cs" />
+    <Compile Include="gtk-gui\Gedcom.UI.GTK.Widgets.HeaderView.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <GtkDesignInfo generateGettext="false" />
+      </Properties>
+    </MonoDevelop>
+    <VisualStudio />
+  </ProjectExtensions>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Gedcom\Gedcom.csproj">
+      <Project>{872AE81C-2178-4D2B-9077-34A8AD1595D9}</Project>
+      <Name>Gedcom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Utility\Utility.csproj">
+      <Project>{C006EBC3-3802-430C-914D-ED54AC81DE98}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Gedcom.UI.Common\Gedcom.UI.Common.csproj">
+      <Project>{02DFBC3F-603E-42E7-A91F-D23C8D29E6DC}</Project>
+      <Name>Gedcom.UI.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Gedcom.Reports\Gedcom.Reports.csproj">
+      <Project>{67BD6594-7528-4185-B660-90DF29153671}</Project>
+      <Name>Gedcom.Reports</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - VS|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug - VS\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - VS|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release - VS\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - VS|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug - VS\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - VS|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release - VS\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - VS|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug - VS\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - VS|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release - VS\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+</Project>

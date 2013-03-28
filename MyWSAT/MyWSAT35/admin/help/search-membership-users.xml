@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      SEARCH USERS
+    </title>
+    <text>
+        You can search for users by user name and or email address. Simply type in your search term(s) and click the "Find User" button.
+    </text>
+  </content>
+  <content>
+    <title>
+      EDIT USER INFO
+    </title>
+    <text>
+      To edit the information in a user account, click on any user name displayed in the gridview to bring up a modal dialogue. Use the tab based interface to manipulate data as required.
+    </text>
+  </content>
+</wrap>

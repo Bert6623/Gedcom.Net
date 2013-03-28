@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CustomFileBrowserProvider>
+  <Paths>
+    <genericHandlerPath>FileSystemHandler.ashx</genericHandlerPath>
+  </Paths>
+  <Mappings>
+    <Mapping>
+      <PhysicalPath>
+        <![CDATA[C:\PhysicalSource\ROOT]]>
+      </PhysicalPath>
+      <VirtualPath><![CDATA[MyCusomRootDir 1/]]></VirtualPath>
+    </Mapping>
+    <Mapping>
+      <PhysicalPath>
+        <![CDATA[\\Telerik.com\Path\SharedDir]]>
+      </PhysicalPath>
+      <VirtualPath><![CDATA[MySharedRootDir/]]></VirtualPath>
+    </Mapping>
+
+  </Mappings>
+</CustomFileBrowserProvider>

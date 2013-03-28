@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+        THE CURRENT THEME
+    </title>
+    <text>
+        The currently selected theme is always shown on top under the "Current Admin Theme" section.
+    </text>
+  </content>
+  <content>
+    <title>
+        AVAILABLE THEMES
+    </title>
+    <text>
+        Each theme / template registered within the system for the administration section is shown on this page under the "Available Admin Themes" section.
+    </text>
+  </content>
+  <content>
+    <title>
+        CHANGING THE THEME
+    </title>
+    <text>
+        To apply a different template for the administration section of this site, simply click on the thumbnail of the desired item and you're set to go.
+    </text>
+  </content>
+  <content>
+    <title>
+        REMOVING A THEME
+    </title>
+    <text>
+        To remove a theme from this page, simply click the delete button under the selected item. This will not actually delete the related files, it only removes the reference from the database.
+    </text>
+  </content>
+</wrap>

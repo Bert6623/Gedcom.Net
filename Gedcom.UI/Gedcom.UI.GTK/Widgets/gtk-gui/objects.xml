@@ -1,0 +1,351 @@
+<objects attr-sync="on">
+  <object type="Gedcom.UI.GTK.Widgets.FamilyMoreView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="FamilyMoreView Signals">
+        <signal name="MoreInformation" />
+        <signal name="MoreFamilyInformation" />
+        <signal name="SpouseSelect" />
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewChild" />
+        <signal name="SelectNewSpouse" />
+        <signal name="ShowScrapBook" />
+        <signal name="ShowName" />
+        <signal name="DeleteIndividual" />
+        <signal name="MoreFactInformation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.HeaderView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="HeaderView Signals">
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewNote" />
+        <signal name="OpenFile" />
+        <signal name="AddFile" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.RepositoryView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="RepositoryView Signals">
+        <signal name="MoreInformation" />
+        <signal name="MoreFamilyInformation" />
+        <signal name="SpouseSelect" />
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewChild" />
+        <signal name="SelectNewSpouse" />
+        <signal name="ShowScrapBook" />
+        <signal name="ShowName" />
+        <signal name="DeleteIndividual" />
+        <signal name="MoreFactInformation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.NotesView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups>
+      <itemgroup label="NotesView Properties">
+        <property name="DataNotes" />
+        <property name="ListOnly" />
+        <property name="NoteOnly" />
+      </itemgroup>
+    </itemgroups>
+    <signals>
+      <itemgroup label="NotesView Signals">
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.DuplicateIndividualView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals />
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.RepositoryList" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="RepositoryList Signals">
+        <signal name="RecordChanged" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.FactDetailView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="FactDetailView Signals">
+        <signal name="ShowSourceCitation" />
+        <signal name="ShowScrapBook" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.ScrapBookView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups>
+      <itemgroup label="ScrapBookView Properties">
+        <property name="ShowRecordList" />
+        <property name="ShowFileList" />
+      </itemgroup>
+    </itemgroups>
+    <signals>
+      <itemgroup label="ScrapBookView Signals">
+        <signal name="FileSelected" />
+        <signal name="FileDeSelected" />
+        <signal name="OpenFile" />
+        <signal name="ShowSourceCitation" />
+        <signal name="AddFile" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.PedigreeBox" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.DrawingArea">
+    <itemgroups>
+      <itemgroup label="PedigreeBox Properties">
+        <property name="ForceMouseOver" />
+      </itemgroup>
+    </itemgroups>
+    <signals>
+      <itemgroup label="PedigreeBox Signals">
+        <signal name="SelectIndividual" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.SourceCitationView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="SourceCitationView Signals">
+        <signal name="ViewMasterSource" />
+        <signal name="SelectMasterSource" />
+        <signal name="ScrapBookButtonClicked" />
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.SummaryView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="SummaryView Signals">
+        <signal name="MoreInformation" />
+        <signal name="MoreFamilyInformation" />
+        <signal name="SpouseSelect" />
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewChild" />
+        <signal name="SelectNewSpouse" />
+        <signal name="ShowScrapBook" />
+        <signal name="ShowName" />
+        <signal name="DeleteIndividual" />
+        <signal name="MoreFactInformation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.SourceCitationList" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="SourceCitationList Signals">
+        <signal name="RecordChanged" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.SourceView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="SourceView Signals">
+        <signal name="MoreInformation" />
+        <signal name="MoreFamilyInformation" />
+        <signal name="SpouseSelect" />
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewChild" />
+        <signal name="SelectNewSpouse" />
+        <signal name="ShowScrapBook" />
+        <signal name="ShowName" />
+        <signal name="DeleteIndividual" />
+        <signal name="MoreFactInformation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.SourceList" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="SourceList Signals">
+        <signal name="RecordChanged" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.FamilyView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="FamilyView Signals">
+        <signal name="MoreInformation" />
+        <signal name="MoreFamilyInformation" />
+        <signal name="SpouseSelect" />
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewChild" />
+        <signal name="SelectNewSpouse" />
+        <signal name="ShowScrapBook" />
+        <signal name="ShowName" />
+        <signal name="DeleteIndividual" />
+        <signal name="MoreFactInformation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.SubmitterView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="SubmitterView Signals">
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewNote" />
+        <signal name="OpenFile" />
+        <signal name="AddFile" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.FactView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="FactView Signals">
+        <signal name="EventRemoved" />
+        <signal name="EventAdded" />
+        <signal name="ShowSourceCitation" />
+        <signal name="ShowScrapBook" />
+        <signal name="MoreInformation" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.AddressView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="AddressView Signals">
+        <signal name="EventRemoved" />
+        <signal name="EventAdded" />
+        <signal name="ShowSourceCitation" />
+        <signal name="ShowScrapBook" />
+        <signal name="MoreFactInformation" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.NameView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="NameView Signals">
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.PedigreeView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="PedigreeView Signals">
+        <signal name="MoreInformation" />
+        <signal name="MoreFamilyInformation" />
+        <signal name="SpouseSelect" />
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewChild" />
+        <signal name="SelectNewSpouse" />
+        <signal name="ShowScrapBook" />
+        <signal name="ShowName" />
+        <signal name="DeleteIndividual" />
+        <signal name="MoreFactInformation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.IndividualView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="IndividualView Signals">
+        <signal name="MoreInformation" />
+        <signal name="MoreFamilyInformation" />
+        <signal name="SpouseSelect" />
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewChild" />
+        <signal name="SelectNewSpouse" />
+        <signal name="ShowScrapBook" />
+        <signal name="ShowName" />
+        <signal name="DeleteIndividual" />
+        <signal name="MoreFactInformation" />
+        <signal name="SelectNewNote" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.IndividualList" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="IndividualList Signals">
+        <signal name="MoreInformation" />
+        <signal name="MoreFamilyInformation" />
+        <signal name="SpouseSelect" />
+        <signal name="ShowSourceCitation" />
+        <signal name="SelectNewChild" />
+        <signal name="SelectNewSpouse" />
+        <signal name="ShowScrapBook" />
+        <signal name="ShowName" />
+        <signal name="DeleteIndividual" />
+        <signal name="MoreFactInformation" />
+        <signal name="SelectNewNote" />
+        <signal name="RecordChanged" />
+        <signal name="Filter" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.DuplicateView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups>
+      <itemgroup label="DuplicateView Properties">
+        <property name="Threshold" />
+      </itemgroup>
+    </itemgroups>
+    <signals />
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.MarriageView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups />
+    <signals>
+      <itemgroup label="MarriageView Signals">
+        <signal name="ShowSourceCitation" />
+        <signal name="ShowScrapBook" />
+        <signal name="MoreFamilyInformation" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.SpouseView" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups>
+      <itemgroup label="SpouseView Properties">
+        <property name="NameLabel" />
+      </itemgroup>
+    </itemgroups>
+    <signals>
+      <itemgroup label="SpouseView Signals">
+        <signal name="AddButtonClicked" />
+        <signal name="RemoveButtonClicked" />
+        <signal name="DeleteButtonClicked" />
+        <signal name="MoreButtonClicked" />
+        <signal name="ScrapBookButtonClicked" />
+        <signal name="FamiliesButtonClicked" />
+        <signal name="NameSourceButtonClicked" />
+        <signal name="DateBornSourceButtonClicked" />
+        <signal name="DateDiedSourceButtonClicked" />
+        <signal name="ParentsButtonClicked" />
+        <signal name="NameButtonClicked" />
+      </itemgroup>
+    </signals>
+  </object>
+  <object type="Gedcom.UI.GTK.Widgets.IndividualListComboBox" palette-category="Gedcom.UI.GTK.Widgets" allow-children="false" base-type="Gtk.Bin">
+    <itemgroups>
+      <itemgroup label="IndividualListComboBox Properties">
+        <property name="Active" />
+        <property name="NoIndividualText" />
+      </itemgroup>
+    </itemgroups>
+    <signals>
+      <itemgroup label="IndividualListComboBox Signals">
+        <signal name="Changed" />
+      </itemgroup>
+    </signals>
+  </object>
+</objects>

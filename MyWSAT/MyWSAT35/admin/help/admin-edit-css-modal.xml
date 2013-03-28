@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      BACKUP
+    </title>
+    <text>
+      Before editing any file, make sure you first make a backup to avoid problems. A simple way to do it is to copy and paste the contents of the current page into a text file for safe keeping while you edit and test the results.
+    </text>
+  </content>
+</wrap>

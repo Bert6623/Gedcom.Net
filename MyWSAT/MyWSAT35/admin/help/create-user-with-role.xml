@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      CREATE A NEW USER ACCOUNT
+    </title>
+    <text>
+      <![CDATA[
+      To create a new user account: <br/>
+      1.) Fill in the required fields in the form. <br/>
+      2.) Click next to proceed to step 2. <br/>
+      3.) Select the appropriate role(s) and click the "Finish" button.
+      ]]>
+    </text>
+  </content>
+  <content>
+    <title>
+      SECURITY REQUIREMENTS
+    </title>
+    <text>
+      <![CDATA[
+      1.) Password must be at least seven (7) characters long. <br/>
+      2.) Password must have at least one (1) non-alphanumeric character. <br/>
+      3.) Passwords are NOT case sensitive.
+      ]]>
+    </text>
+  </content>
+  <content>
+    <title>
+      OTHER
+    </title>
+    <text>
+      <![CDATA[
+      1.) Application checks for and prevents duplicate user names. <br/>
+      2.) Application checks for and prevents duplicate user emails.
+      ]]>
+    </text>
+  </content>
+</wrap>

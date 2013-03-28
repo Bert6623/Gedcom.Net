@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+    <siteMapNode url="#" title="View Site" description="Welcome" target="_blank">
+
+        <siteMapNode url="~/Default.aspx" title="View Site" description="Welcome" target="_blank">
+            <siteMapNode url="~/Default.aspx#front" title="click to view front page in a new window.." target="_blank"/>
+        </siteMapNode>
+
+        <siteMapNode url="~/Admin/admin.aspx" title="Admin Admin">
+            <siteMapNode url="~/Admin/encrypt-connection-string.aspx" title="Connection String"/>
+            <siteMapNode url="~/Admin/admin-edit-help.aspx" title="Edit Hints"/>
+            <siteMapNode url="~/Admin/admin-themes.aspx" title="Themes">
+                <siteMapNode url="~/Admin/admin-edit-themes.aspx" title="Add / Edit"/>
+                <siteMapNode url="~/Admin/admin-edit-css.aspx" title="Edit CSS"/>
+            </siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="~/Admin/Default.aspx" title="User Accounts">
+            <siteMapNode url="~/Admin/access-rules.aspx" title="Access Rules"/>
+            <siteMapNode url="~/Admin/add-user.aspx" title="Add New User"/>
+            <siteMapNode url="~/Admin/users-by-role.aspx" title="By Role"/>
+            <siteMapNode url="~/Admin/email-broadcast.aspx" title="E-mail Broadcast"/>
+            <siteMapNode url="~/Admin/locked-users.aspx" title="Locked Out"/>
+            <siteMapNode url="~/Admin/online-users.aspx" title="Logged In"/>
+            <siteMapNode url="~/Admin/roles.aspx" title="Roles"/>
+            <siteMapNode url="~/Admin/search-user.aspx" title="Search Users"/>
+            <siteMapNode url="~/Admin/unapproved-users.aspx" title="Unapproved"/>
+            <siteMapNode url="~/Admin/users-a-z.aspx" title="Users A-Z"/>
+            <siteMapNode url="~/Admin/create-test-users.aspx" title="Test Users"/>
+            <siteMapNode url="~/Admin/dashboard.aspx" title="Dashboard"/>
+        </siteMapNode>
+
+        <siteMapNode url="~/Admin/About/about.aspx" title="About">
+            <siteMapNode url="~/Admin/About/contact-developer.aspx" title="Contact"/>
+            <siteMapNode url="~/Admin/About/ula.aspx" title="License"/>
+            <siteMapNode url="~/Admin/About/version.aspx" title="Version"/>
+        </siteMapNode>
+
+    </siteMapNode>
+</siteMap>

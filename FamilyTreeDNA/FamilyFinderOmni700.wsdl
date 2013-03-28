@@ -1,0 +1,333 @@
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.familytreedna.com/FTDNAWebService/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://www.familytreedna.com/FTDNAWebService/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.familytreedna.com/FTDNAWebService/">
+      <s:element name="HelloWorld">
+        <s:complextype />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complextype>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complextype>
+      </s:element>
+      <s:element name="getMatchdata">
+        <s:complextype>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ekit" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="page" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="filter" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="hide3rdparty" type="s:boolean" />
+          </s:sequence>
+        </s:complextype>
+      </s:element>
+      <s:element name="getMatchdataResponse">
+        <s:complextype>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMatchdataResult" type="tns:ArrayOfFFMatchesFlashOmni" />
+          </s:sequence>
+        </s:complextype>
+      </s:element>
+      <s:complextype name="ArrayOfFFMatchesFlashOmni">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FFMatchesFlashOmni" nillable="true" type="tns:FFMatchesFlashOmni" />
+        </s:sequence>
+      </s:complextype>
+      <s:complextype name="FFMatchesFlashOmni">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="resultid2" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="rownum" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="totalcount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="is23" type="s:int" />
+        </s:sequence>
+      </s:complextype>
+      <s:element name="updateNotes">
+        <s:complextype>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ekit" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="resultid2" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="note" type="s:string" />
+          </s:sequence>
+        </s:complextype>
+      </s:element>
+      <s:element name="updateNotesResponse">
+        <s:complextype>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateNotesResult" type="s:boolean" />
+          </s:sequence>
+        </s:complextype>
+      </s:element>
+      <s:element name="getUserMatchdata">
+        <s:complextype>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ekit" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="resultid2" type="s:int" />
+          </s:sequence>
+        </s:complextype>
+      </s:element>
+      <s:element name="getUserMatchdataResponse">
+        <s:complextype>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUserMatchdataResult" type="tns:FFData" />
+          </s:sequence>
+        </s:complextype>
+      </s:element>
+      <s:complextype name="FFData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="HasPersonalImage" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="KitNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="imgURL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="iconImgURL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Predicted" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Range" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="cm" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="segments" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="selected" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="resultid2" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="notes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FFSurname" type="tns:ArrayOfFFSurname" />
+          <s:element minOccurs="0" maxOccurs="1" name="FFCMData" type="tns:ArrayOfFFCMData" />
+        </s:sequence>
+      </s:complextype>
+      <s:complextype name="ArrayOfFFSurname">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FFSurname" nillable="true" type="tns:FFSurname" />
+        </s:sequence>
+      </s:complextype>
+      <s:complextype name="FFSurname">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="country" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="match" type="s:boolean" />
+        </s:sequence>
+      </s:complextype>
+      <s:complextype name="ArrayOfFFCMData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FFCMData" nillable="true" type="tns:FFCMData" />
+        </s:sequence>
+      </s:complextype>
+      <s:complextype name="FFCMData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="cm" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="snps" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="c" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="p1" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="p2" type="s:int" />
+        </s:sequence>
+      </s:complextype>
+      <s:element name="getUserMatchdataNew">
+        <s:complextype>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ekit" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="resultid2" type="s:int" />
+          </s:sequence>
+        </s:complextype>
+      </s:element>
+      <s:element name="getUserMatchdataNewResponse">
+        <s:complextype>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUserMatchdataNewResult" type="tns:FFDataNew" />
+          </s:sequence>
+        </s:complextype>
+      </s:element>
+      <s:complextype name="FFDataNew">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="HasPersonalImage" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="KitNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="imgURL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="iconImgURL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Predicted" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Range" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="cm" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="segments" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="selected" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="resultid2" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="notes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FFSurname" type="tns:ArrayOfFFSurname" />
+          <s:element minOccurs="0" maxOccurs="1" name="FFCMData" type="tns:ArrayOfArrayOfFFCMDataNew" />
+        </s:sequence>
+      </s:complextype>
+      <s:complextype name="ArrayOfArrayOfFFCMDataNew">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfFFCMDataNew" nillable="true" type="tns:ArrayOfFFCMDataNew" />
+        </s:sequence>
+      </s:complextype>
+      <s:complextype name="ArrayOfFFCMDataNew">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FFCMDataNew" nillable="true" type="tns:FFCMDataNew" />
+        </s:sequence>
+      </s:complextype>
+      <s:complextype name="FFCMDataNew">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="cm" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="snps" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="p1" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="p2" type="s:int" />
+        </s:sequence>
+      </s:complextype>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMatchdataSoapIn">
+    <wsdl:part name="parameters" element="tns:getMatchdata" />
+  </wsdl:message>
+  <wsdl:message name="getMatchdataSoapOut">
+    <wsdl:part name="parameters" element="tns:getMatchdataResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateNotesSoapIn">
+    <wsdl:part name="parameters" element="tns:updateNotes" />
+  </wsdl:message>
+  <wsdl:message name="updateNotesSoapOut">
+    <wsdl:part name="parameters" element="tns:updateNotesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserMatchdataSoapIn">
+    <wsdl:part name="parameters" element="tns:getUserMatchdata" />
+  </wsdl:message>
+  <wsdl:message name="getUserMatchdataSoapOut">
+    <wsdl:part name="parameters" element="tns:getUserMatchdataResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserMatchdataNewSoapIn">
+    <wsdl:part name="parameters" element="tns:getUserMatchdataNew" />
+  </wsdl:message>
+  <wsdl:message name="getUserMatchdataNewSoapOut">
+    <wsdl:part name="parameters" element="tns:getUserMatchdataNewResponse" />
+  </wsdl:message>
+  <wsdl:porttype name="FamilyFinderOmni700Soap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMatchdata">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns List of Matches</wsdl:documentation>
+      <wsdl:input message="tns:getMatchdataSoapIn" />
+      <wsdl:output message="tns:getMatchdataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateNotes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Updates Notes</wsdl:documentation>
+      <wsdl:input message="tns:updateNotesSoapIn" />
+      <wsdl:output message="tns:updateNotesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserMatchdata">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns List of Matches</wsdl:documentation>
+      <wsdl:input message="tns:getUserMatchdataSoapIn" />
+      <wsdl:output message="tns:getUserMatchdataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserMatchdataNew">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns List of Matches New</wsdl:documentation>
+      <wsdl:input message="tns:getUserMatchdataNewSoapIn" />
+      <wsdl:output message="tns:getUserMatchdataNewSoapOut" />
+    </wsdl:operation>
+  </wsdl:porttype>
+  <wsdl:binding name="FamilyFinderOmni700Soap" type="tns:FamilyFinderOmni700Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://www.familytreedna.com/FTDNAWebService/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMatchdata">
+      <soap:operation soapAction="http://www.familytreedna.com/FTDNAWebService/getMatchdata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateNotes">
+      <soap:operation soapAction="http://www.familytreedna.com/FTDNAWebService/updateNotes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserMatchdata">
+      <soap:operation soapAction="http://www.familytreedna.com/FTDNAWebService/getUserMatchdata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserMatchdataNew">
+      <soap:operation soapAction="http://www.familytreedna.com/FTDNAWebService/getUserMatchdataNew" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FamilyFinderOmni700Soap12" type="tns:FamilyFinderOmni700Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://www.familytreedna.com/FTDNAWebService/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMatchdata">
+      <soap12:operation soapAction="http://www.familytreedna.com/FTDNAWebService/getMatchdata" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateNotes">
+      <soap12:operation soapAction="http://www.familytreedna.com/FTDNAWebService/updateNotes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserMatchdata">
+      <soap12:operation soapAction="http://www.familytreedna.com/FTDNAWebService/getUserMatchdata" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserMatchdataNew">
+      <soap12:operation soapAction="http://www.familytreedna.com/FTDNAWebService/getUserMatchdataNew" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FamilyFinderOmni700">
+    <wsdl:port name="FamilyFinderOmni700Soap" binding="tns:FamilyFinderOmni700Soap">
+      <soap:address location="https://my.familytreedna.com/ftdnawebservice/FamilyFinderOmni700.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FamilyFinderOmni700Soap12" binding="tns:FamilyFinderOmni700Soap12">
+      <soap12:address location="https://my.familytreedna.com/ftdnawebservice/FamilyFinderOmni700.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

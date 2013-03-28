@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      CREATE NEW ROLE
+    </title>
+    <text>
+      To create a new security role, use the first tab in the modal dialogue. Simply enter a name for the role and click the "Add Role" button.
+      The role is instantly created and can be viewed and used on the second tab.
+    </text>
+  </content>
+  <content>
+    <title>
+      GENERAL USER INFO
+    </title>
+    <text>
+      The general user info tab allows for the editing of user email, roles, activate/deactivate, and the unlocking of user account.
+      When the "Active User" checkbox is checked, the user can use his/her user name and password to login to the system.
+      Unchecking this checkbox means to deactivate the user account so the user cannot logon.
+    </text>
+  </content>
+  <content>
+    <title>
+      ACCOUNT LOCKED
+    </title>
+    <text>
+      If a user tries to logon with the wrong user name and password more than five times in succession, their account is automatically locked.
+      In this case, lockout duration is configured to automagically unlock locked accounts after 10 minutes to take burden off of the busy administrator.
+      The idea here is to enforce security against brute force or dictionary attacks.
+    </text>
+  </content>
+  <content>
+    <title>
+      DELETE USER
+    </title>
+    <text>
+      To delete a user account and all associated data, simply click the "Delete" button on the "General User Info" tab.
+    </text>
+  </content>
+  <content>
+    <title>
+      USER PROFILE
+    </title>
+    <text>
+      Each registered user can access their account information to change their user email, password and user profile. The information they enter into the User Profile form is recorded and is displayed in this section. To view this section, click on the "User Profile" tab. 
+      To update the selected user's profile, simply make your changes within the form and click the "Update Profile" button at the bottom of the form. To delete a user's profile, click the "Delete Profile" button.
+    </text>
+  </content>
+  <content>
+    <title>
+      CHANGE PASSWORD
+    </title>
+    <text>
+      The "Change Password" tab allows the administrator to change/reset the account password and the security question and answer.
+    </text>
+  </content>
+</wrap>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      REGISTERED USERS A-Z
+    </title>
+    <text>
+      This page like all other user account related pages, allow the administrator to  manage all user accounts present in the system's database. 
+      The alphabet navigation bar on top allows for navigating the user accounts present alphabetically by user name.
+    </text>
+  </content>
+  <content>
+    <title>
+      APPROVE / DISAPPROVE USER ACCOUNTS
+    </title>
+    <text>
+      To approve means to activate a user account. Once the account is activated, the user is free to use their user name and password to login to areas of the site permited by their assigned role(s).
+      To dissapprove means to deactivate a user account. While the account information is present in the database, the user cannot succesfully use their
+      user name and password to gain access to any restricted part of the site.
+    </text>
+  </content>
+  <content>
+    <title>
+      EDIT USER INFO
+    </title>
+    <text>
+      To edit the information in a user account, click on any user name displayed in the gridview to bring up a modal dialogue. Use the tab based interface to manipulate data as required.
+    </text>
+  </content>
+  <content>
+    <title>
+      DELETE USER ACCOUNT
+    </title>
+    <text>
+      To delete user account(s), select the checkboxes next to the user name column in the gridview and click the "Delete" button.
+    </text>
+  </content>
+  <content>
+    <title>
+      DELETE ALL USERS
+    </title>
+    <text>
+      To delete all user accounts from the database, simply click the "Delete All" button. Warning: If you don't at least leave one administrator account intact, you will not be able to log into the administration panel without manually manipulating the database.
+    </text>
+  </content>
+  <content>
+    <title>
+      LOCK / UNLOCK USER ACCOUNTS
+    </title>
+    <text>
+      The administrator does not have the ability to lock a user account as this is decided by the application. For example, if a user attempts to login with the incorrect combination of user name and password five times on the row, the system automatically locks the account as a measure of security against dictionary and other types of attacks.
+      To unlock a locked account, click on the desired user name in the gridview, check the "Active User" checkbox and click the "Update User" button. The current system setup includes an automated unlock function to unlock a locked account after 10 minutes has passed by. This unlock feature actually occurs when the user tries to log back in.
+    </text>
+  </content>
+  <content>
+    <title>
+      ADD USER(S) TO ROLE
+    </title>
+    <text>
+      To add a user or group of users to an existing role, simply select the checkboxes next to their user name in the gridview and use the "Add To" drop down list to select the appropriate role. This will add the selected users to the selected role in addition to the roles they are already in.
+      To add all users to a particular role, use the "Add All To" drop down list" to select the appropriate role. This will add all registered users to the selected role.
+    </text>
+  </content>
+  <content>
+    <title>
+      REMOVE USER(S) FROM  ROLE
+    </title>
+    <text>
+      To remove a user or group of users from a role, select the checkboxes next to their user name in the gridview and use the "Remove From" drop down list to select the appropriate role. This will remove the selected users from the selected role.
+      To remove all users from a role, use the "Remove All From" drop down list to select the appropriate role.
+    </text>
+  </content>
+  <content>
+    <title>
+      REMOVE ALL USER(S) FROM  ALL ROLES
+    </title>
+    <text>
+      To remove all users from all roles, simply click the "Remove All" button. This will remove all users from all security role. WARNING! If you remove all administrator account from all administrative role(s). You will not be able to log back into the administration panel.
+    </text>
+  </content>
+</wrap>

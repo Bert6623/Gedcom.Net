@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wrap>
+  <content>
+    <title>
+      REGISTER TEMPLATE / THEME FILE
+    </title>
+    <text>
+        You can register as many templates as desired. Once in the system, you can simply click on the tumbnail of the desired theme (under the theme menu) and voila - the application now will use the selected template. To register a template, simply fill in the required information in the gridview and click the "Insert" button.
+    </text>
+  </content>
+  <content>
+    <title>
+        ABOUT TEMPLATES
+    </title>
+    <text>
+        Templates consist of master pages, CSS files, images, user controls or almost anything that asp.net provides. The only thing that needs to be registered in the system is the master page file and a screenshot.
+    </text>
+  </content>
+</wrap>

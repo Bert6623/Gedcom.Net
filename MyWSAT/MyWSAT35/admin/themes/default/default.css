@@ -1,0 +1,308 @@
+﻿body{font-family: lucida grande, arial, helvetica,sans-serif; font-size: 12px; color: #555555; margin: 0px; padding: 0px; background-color: #FFFFFF;}
+a:link{text-decoration: none; color:#333333;}
+a:visited{text-decoration: none; color:#333333;}
+a:hover{text-decoration: none; color:#000000;}
+a:active{text-decoration: none; color:#333333;}
+a:focus{outline: none;}
+
+/* UNIVERSAL PROPERTIES ----------------------------------- */
+.clearBoth{clear:both;}
+.clearBoth2{clear:Both;height:10px;}
+.underline{text-decoration:underline important!}
+.italic{font-style:italic;font-size:12px;}
+.regular{font-size:12px;}
+.small{font-size:10px;}
+.bold{font-weight:bold;}
+.margin10{margin:10px;}
+.floatRight{float:right;}
+.floatLeft{float:left;}
+.faint a{color:#999999;}
+.faint a:hover{color:#000000;}
+.padding{height:35px;}
+.padding2{padding-bottom:3px;}
+.pageBottomPadding{height:85px;}
+input {font-size:11px;}
+.inputButton{border: 1px solid #333;border-top:1px solid #000; font-size: 11px; color: #999; margin-right: 3px; margin-top: 3px; background-image: url('images/buttons/button-bg-2.gif');background-position:0px -2px; padding: 4px;}
+.inputButton:hover{border-bottom: 1px solid #333; background-image: url(images/buttons/hover-bg.gif); color: #fff; text-decoration: none;}
+select{font-size:12px;}
+.padding10{height:10px;}
+.padding20{height:20px;}
+h2{font-size:12px;color:#000;}
+
+/* DASHBOARD STYLES */
+.dashboardWrap{ border: 0px solid #e9e9e9; padding: 20px; background-color:#ffffff;}
+.dashboardItem-0 a{display:block; float:left; width:60px; height:80px; border:1px solid #f4f4f4;background-color:#fff;background-image:url(images/cpanel/dashboard.png);background-repeat: no-repeat; background-position: 15px 30px; margin: 0px 10px 15px 0px; padding:10px;font-size:11px; text-align:center;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.dashboardItem-0 a:hover{border:1px solid #b8d6fb; background-color:#eef5fd;background-image:url(images/cpanel/dashboard-2.png);background-repeat: no-repeat; background-position: 15px 30px;color:#000;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.dashboardItem a{display:block; float:left; width:60px; height:80px; border:1px solid #f4f4f4;background-color:#fff;background-image:url(images/cpanel/cpanel-icon.png);background-repeat: no-repeat; background-position: 15px 30px; margin: 0px 10px 15px 0px; padding:10px;font-size:11px; text-align:center;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.dashboardItem a:hover{border:1px solid #b8d6fb; background-color:#eef5fd;background-image:url(images/cpanel/cpanel-icon-2.png);background-repeat: no-repeat; background-position: 15px 30px;color:#000;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.dashboardTitle{font-weight: normal;color: #000000;font-size: 24px;font-style:italic;font-family:Georgia; margin-bottom:15px;}
+.dashboardCategoryWrap{width:100%;border:1px solid #fff;color:#999;background-color:#fff;margin-top:1px;padding:0px 0px 20px 0px;background-image:url(images/greybox/hint.png);background-repeat:repeat-x;}
+.dashboardCategoryWrap td{vertical-align:top;width:400px;padding:5px 10px 5px 5px;}
+.dashboardTopPadding{padding:90px 0px 0px 0px;}
+.dashboardCategoryTitle{font-weight:bold;font-size:14px;color:#333;margin-bottom:10px;padding-bottom:5px;border-bottom:1px solid #ccc;}
+.dashboardCategoryItem{padding:3px 10px 3px 0px;border-bottom:1px solid #f4f4f4;border-top:1px solid #fff;background-color:#fff;color:#333;}
+.dashboardCategoryItem:hover{border-bottom:1px solid #ccc;border-top:1px solid #ccc;background-color:#ccc;color:#000;cursor:default;}
+
+/* ADMIN ABOUT STYLES */
+.ula{width:60%;margin:50px auto 50px auto;padding:20px;border:1px solid #e9e9e9;color:#000;}
+.appVersion{width:60%;margin:50px auto 50px auto;padding:20px;border:1px solid #e9e9e9;color:#000;}
+.devContact{width:60%;margin:50px auto 50px auto;padding:20px;border:1px solid #e9e9e9;color:#000;}
+.devContact a{text-decoration:underline;color:#999;}
+.devContact a:hover{color:#000;}
+
+/* ADMINISTRATION BACK-END STYLES ------------------------------------*/
+/* admin dashboard */
+/* a-z alphabet link styles */
+.aToZWrap{padding:1px;border-top:1px solid #e6e6e6;border-bottom:1px solid #fff;background-image: url(images/buttons/a-z-wrap-bg.jpg)}
+.aTozNavigaion a{display: block;float: left;border: 1px solid #ccc;font-size: 13px;color: #333333;margin: 0px 3px 0px 0px;background-image: url(images/gridview/atoz-bg.jpg);padding: 3px;width: 15px;text-align: center;}
+.aTozNavigaion a:hover{border: 1px solid #000;border-top:#ccc; background-image:url(images/menu/menu-bg.gif); color: #fff; text-decoration: none;}
+/* master content */
+.masterContentWrap{padding: 0px 0px 0px 0px;min-width:800px;}
+/* dropdownlists div wrap */
+.ddlWrap{display:block; float: left; border: 1px solid #CCCCCC; color: #000000; margin-right: 3px; margin-top: 6px; background-image: url('images/gridview/header-bg.jpg'); padding: 3px; height: 20px;}
+/* page header control style - admin pages */
+.headerControl{height: 80px;background-image: url(images/header/header-bg.png);border-bottom: 0px #cccccc solid;}
+.headerTitleText{color: #666666; font-size: 25px; width: 240px; margin-left: 25px; font-size: 24px;font-style: normal;font-family:Georgia;}
+/* admin login name and status div */
+.loginNameAndStatus{float: right; width: 478px; text-align: right; color: #000000; padding: 5px 25px 0px 10px;}
+.loginNameAndStatus a{text-decoration: none;}
+.loginNameAndStatus a:hover{color: #FFFFFF;}
+/* dateTime in header */
+.dateTime{width: 193px; padding: 5px 0px 15px 32px;}
+/* page footer control style - admin pages */
+.footer{height: 40px; width: 100%; margin-top: 10px; background-color:#ccc;border-top: 1px solid #999; position: fixed; bottom: 0px; left: 0px;filter:alpha(opacity=75);-moz-opacity:0.75;-khtml-opacity: 0.75;opacity: 0.75;}
+.footerTitleText{text-align: center; padding: 15px; color: #000;}
+.footerTitleText a{color: #000;}
+.footerTitleText a:hover{color: #fff;}
+/* form help descriptions in admin forms */
+.adminHelp{min-height: 36px;margin-bottom: 1px;color: #24496F;border:0px solid #8BB1D8;border-bottom: 1px solid #8BB1D8;padding: 3px 3px 3px 45px;background-image: url(images/greybox/info.png);background-repeat: no-repeat;background-position: 3px;background-color: #bfd5ea;font-size: 11px;}
+/* form element styles */
+.formSectionTitle{font-weight: bold; border-bottom: 1px solid #e9e9e9;}
+.formNameTitle{font-size: 16px; font-weight: bold;}
+.formSectionTitle{font-weight: normal;font-size:14px;color:#000000; border-bottom: 1px solid #e9e9e9;}
+.formSectionTitle2{font-weight: normal;font-size:14px;color:#000000; border-bottom: 0px solid #e9e9e9;margin-bottom:20px;}
+.formLabelsText{margin:5px 0px 5px 0px;}
+.formSectionEnd{margin-bottom:20px;}
+.formButton input{font-size:11px;}
+.formHelpDiv{background-position: left;background-image: url(images/formview/div_info.png);background-repeat: no-repeat;font-size: 10px;padding-left: 20px;}
+/* buttons */
+.buttonCSS a{display:block; float: left; border: 1px solid #CCCCCC; font-size: 11px; color: #000000; margin-right: 3px; margin-top: 6px; background-image: url('images/buttons/button-bg.jpg'); padding: 6px;}
+.buttonCSS a:hover{border: 1px solid #000;border-top:#ccc; background-image: url(images/buttons/button-bg-2.gif); color: #fff; text-decoration: none;}
+/* buttons 2 */
+.buttonCSS2 a{background-position: -2px -2px;display: block;float: left;border: 1px solid #000000;font-size: 11px;color: #ffffff;margin-right: 3px;margin-top: 6px;background-image: url('images/buttons/button-bg-2.gif');padding: 6px;}
+.buttonCSS2 a:hover{background-position: 0px 0px;border: 1px solid #6699cc; background-image: url(images/buttons/button-hover-bg.jpg); color: #000000; text-decoration: none;}
+/* buttons 3 */
+.buttonCSS3 a{background-position: -2px -2px;display: block;float: right;border: 1px solid #000000;font-size: 11px;color: #ffffff;margin-right: 5px;margin-top: 2px;background-image: url('images/buttons/button-bg-2.gif');padding: 6px;font-style:normal;}
+.buttonCSS3 a:hover{background-position: 0px 0px;border: 1px solid #6699cc; background-image: url(images/buttons/button-hover-bg.jpg); color: #000000; text-decoration: none;}
+/* buttons 4 */
+.buttonCSS4 {background-color:#ccc;display: block;float: right;border: 1px solid #000;font-size: 11px;color: #000;margin-right: 5px;margin-top: 2px;padding:3px 10px 2px 3px;height:21px;font-style:normal;}
+/* message wrap */
+.messageWrap a{display:block; float: left; border: 1px solid #CCCCCC; font-size: 11px; color: #000000; margin-right: 3px; margin-top: 6px; padding: 6px;}
+.messageWrap a:hover{border: 1px solid #000000; color: #000000; text-decoration: none;}
+.messageWrap2{padding:5px;margin-bottom:10px;}
+/* checkbox list styles */
+.checkboxList{width: 450px; overflow: auto;}
+/* membership search form */
+.userSearchForm{font-size:11px;font-style:normal;}
+.userSearchMsg a{border: 1px solid #ccc; font-size: 11px; color: #000; margin-right: 3px; margin-top: 6px; padding: 6px;}
+.userSearchMsg a:hover{border: 1px solid #000; color: #000; text-decoration: none;}
+/* admin theme page styles */
+.themeWrap{float:left;width:auto;height:auto;}
+.themeImageWrap a{float:left;display:block;width:auto;height:auto;border:1px solid #e9e9e9;padding:10px;margin:10px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.themeImageWrap a:hover{border:1px solid #b8d6fb; background-color:#eef5fd;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.themeTextWrap{padding-left:20px;}
+.themeName{font-size:14px;color:#333333;font-weight:bold;}
+.themeDescription{}
+.themeLocation{font-size:11px;font-style:italic;}
+.themeButtons{}
+.themeButtons a{float:left;display:block;color:#000000;padding:5px;margin:5px 5px 0px 0px;border:1px solid #cccccc;font-size:9px;}
+.themeButtons a:hover{border:1px solid #000000;background-color:#999999;}
+/* admin show themes modal */
+.showThemesOuter{position:absolute;top:0px;right:0px;bottom:0px;left:0px;background-image:url(images/greybox/bg.png)}
+.showThemesInner{position:absolute;top:5%;right:7%;bottom:7%;left:7%;background-color:#fff;overflow:auto;border:1px solid #000;}
+/* admin help sidebar */
+.helpSidebar{position:absolute;top:0px;right:0px;bottom:0px;width:250px;border:5px solid #ccc;border-top:none;border-right:none;background-image:url(images/greybox/bg.png);padding:10px 10px 70px 10px;color:#fff;font-size:11px;overflow:auto;}
+.helpSidebarShow a{position:absolute;display:block;top:200px;right:0px;width:20px;height:70px;background-image:url(images/greybox/bg.png);color:#fff;border:1px solid #000;border-right:none;padding:10px 0px 0px 0px;font-size:11px;text-align:center;}
+.helpSidebarShow a:hover{background-image:url(images/greybox/bg-2.png);color:#000;}
+.helpSidebarClose a{float:right;display:block;background-image:url(images/greybox/bg.png);color:#fff;border:1px solid #000;padding:5px;font-size:10px;}
+.helpSidebarClose a:hover{background-image:url(images/greybox/bg-2.png);color:#000;}
+.helpTitle{font-size:11px;}
+.helpText{font-size:11px;margin-bottom:10px;}
+.helpHintIcon{width:100px;height:100px;background-image:url(images/greybox/hint.png);margin:0px auto 10px auto;}
+/* webconfig textbox */
+.webConfigBox{background-color:#fff;font-size:11px;border:1px solid #ccc;margin-bottom:5px;color:#666;}
+/* email broadcast styles */
+.subjectAndFrom{font-size: xx-small; width: 2%;text-align:center;color:#000;}
+.emailTypeAndPriority{font-size: xx-small; color: #000;}
+/* hint edit */
+.hintEditBox textarea {border:1px solid #999;background-color:#ccc;color:#333;font-size:11px;}
+.hintEditBox textarea:hover {border:1px solid #000;background-color:#fff;color:#000;}
+.hintEditBox textarea:focus {border:1px solid #000;background-color:#fff;color:#000;}
+/* css edit */
+.cssEditBox textarea {border:1px solid #999;background-color:#ccc;color:#333;font-size:11px;}
+.cssEditBox textarea:hover {border:1px solid #000;background-color:#fff;color:#000;}
+.cssEditBox textarea:focus {border:1px solid #000;background-color:#fff;color:#000;}
+
+/*AutoComplete flyout */
+.autocomplete_completionListElement {visibility:hidden;margin:0px!important;padding:0px;background-color:inherit;color:windowtext;border:buttonshadow;border-width:1px;border-style:solid;cursor:default;list-style-type:none;overflow:auto; max-height: 150px;line-height: 10px;}
+.autocomplete_highlightedListItem{background-color: Highlight;color: HighlightText;padding: 3px;font-weight: normal;font-family: tahoma;font-size: 10px;font-style: normal;}
+.autocomplete_listItem{background-color:window;color:windowtext;padding:3px;font-weight:normal;font-family:tahoma;font-size:10px;font-style: normal;}
+
+/* Collapsible Panel Styles */
+.CollapsePanel{overflow: hidden; width: 100%; }
+.CollapsePanelHeader{background-image: url(images/collapsible-panel/gray-grad.png); cursor: move; font-weight: bold; height: 19px; padding-top: 5px; width: 100%; border: 1px solid #cccccc; border-top: 1px solid #ffffff;}
+.CollapsePanelWrap{background-color: #ffffff; border: 1px solid #cccccc; border-top: 1px solid #ffffff; overflow: auto; overflow-x: hidden; overflow-y: auto; padding: 15px; margin-bottom: 20px;}
+
+/* CREATE USER WIZARD CONTROL----------------------------------- */
+.cuwWrap{width: 320px; padding: 10px; margin: 20px auto 200px auto; border: 1px solid #e9e9e9;background-color:#FCFCFC;font-size:11px;-moz-border-radius: 7px;-webkit-border-radius: 7px;}
+.cuwWrap input:focus{background-color:#FFFFCC}
+.cuwTitle{font-size:14px;font-weight:bold;color:#000000}
+
+/* CSS MENU ADMIN STYLES ----------------------------------------
+/* menu div wrap and positioning */
+.aspMenuDivWrap{height: 26px;padding: 0px 10px 0px 10px;border-bottom: 0px solid #000000;margin-bottom: 0px;background-image: url(images/menu/menu-bg.gif);}
+.aspMenuPosition{width: 85%;margin: 0px auto 0px auto;min-width: 700px;overflow: auto;}
+/* Tier 1 */
+.Menu1 ul.AspNet-Menu{width: 100%;}
+/* Tier 2 */
+.Menu1 ul.AspNet-Menu ul{width: 110px;top: 100%;left: 0;border:1px solid #000;background: #f4f4f4;background-image: url(images/menu/menu-bg.png);background-repeat: no-repeat;filter:alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity: 0.95;opacity: 0.95;}
+/* Tier 3+ */
+.Menu1 ul.AspNet-Menu ul ul {top: 0;left: 100%;}
+/* all list items */
+.Menu1 li{width: 110px;color: #000;font-family: Arial;font-size: 11px;height:30px;border-right:1px solid #000;}
+/* list items being hovered over */ 
+.Menu1 li:hover, .Menu1 li.AspNet-Menu-Hover{background: #000;background-image:url(images/menu/selected-bg.gif);color: #fff;}
+/* all anchors and spans (nodes with no link) */
+.Menu1 a, .Menu1 span{color: #999;padding: 4px 2px 7px 8px;background: transparent url(images/menu/menu-arrow-horiz.gif) right center no-repeat;}
+/* leaves */
+.Menu1 li.AspNet-Menu-Leaf a, .Menu1 li.AspNet-Menu-Leaf span{background-image: none !important;}
+/* hovered text */ 
+.Menu1 li:hover a, .Menu1 li:hover span, .Menu1 li.AspNet-Menu-Hover a, 
+.Menu1 li.AspNet-Menu-Hover span, .Menu1 li:hover li:hover a, 
+.Menu1 li:hover li:hover span, .Menu1 li.AspNet-Menu-Hover li.AspNet-Menu-Hover a, 
+.Menu1 li.AspNet-Menu-Hover li.AspNet-Menu-Hover span, .Menu1 li:hover li:hover li:hover a, 
+.Menu1 li:hover li:hover li:hover span, .Menu1 li.AspNet-Menu-Hover li.AspNet-Menu-Hover li.AspNet-Menu-Hover a, 
+.Menu1 li.AspNet-Menu-Hover li.AspNet-Menu-Hover li.AspNet-Menu-Hover span{color: #ffffff;background: transparent url(images/menu/menu-arrow.gif) right center no-repeat;}
+/* the tier above this one is hovered */
+.Menu1 li:hover li a, .Menu1 li:hover li span, .Menu1 li.AspNet-Menu-Hover li a, 
+.Menu1 li.AspNet-Menu-Hover li span, .Menu1 li:hover li:hover li a, 
+.Menu1 li:hover li:hover li span, .Menu1 li.AspNet-Menu-Hover li.AspNet-Menu-Hover li a, 
+.Menu1 li.AspNet-Menu-Hover li.AspNet-Menu-Hover li span{color: #000000;background: transparent url(images/menu/menu-arrow-horiz.gif) right center no-repeat;}
+/* selected menus */
+.Menu1 .AspNet-Menu-Selected{border: 0px solid #999;color:#fff !important;background-image:url(images/menu/selected-bg.gif);}
+.Menu1 .AspNet-Menu-ChildSelected{border: 0px solid #999;color:#fff !important;background-image:url(images/menu/selected-bg.gif);}
+.Menu1 .AspNet-Menu-ParentSelected{border: 0px solid #999;}
+
+/* CSS MENU BASE STYLES ----------------------------------------*/
+ul.AspNet-Menu{position: relative;}
+ul.AspNet-Menu, ul.AspNet-Menu ul{margin: 0;padding: 0;display: block;}
+ul.AspNet-Menu li{position: relative;list-style: none;float: left;}
+ul.AspNet-Menu li a, ul.AspNet-Menu li span{display: block;text-decoration: none;}
+ul.AspNet-Menu ul{position: absolute;visibility: hidden;}
+/* Add more rules here if your menus have more than three (4) tiers */
+ul.AspNet-Menu li:hover ul ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul ul ul
+{visibility: hidden;}
+/* Add more rules here if your menus have more than three (4) tiers */
+ul.AspNet-Menu li:hover ul, ul.AspNet-Menu li li:hover ul, ul.AspNet-Menu li li li:hover ul, ul.AspNet-Menu li li li li:hover ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul, ul.AspNet-Menu li li.AspNet-Menu-Hover ul, ul.AspNet-Menu li li li.AspNet-Menu-Hover ul, ul.AspNet-Menu li li li li.AspNet-Menu-Hover ul
+{visibility: visible;}
+.AspNet-Menu-Vertical ul.AspNet-Menu li{width: 100%;}
+
+/* GRIDVIEW ADMIN STYLES ----------------------------------------*/
+.gvBanner{padding: 4px;border-top: 1px #E6E6E6 solid;background-color: #F2F2F2;font-weight: normal;color: #000000;font-size: 24px;font-style:italic;font-family:Georgia;}
+.gvBanner input:focus{background-color:#ffffcc}
+.gvBannerSettings img{background-image:url(images/section-icons/settings.png);width:36px;height:34px;}
+.gvBannerUsers img{background-image:url(images/section-icons/users.png);width:36px;height:34px;}
+.gvBannerConnection img{background-image:url(images/section-icons/connection.png);width:36px;height:34px;}
+.gvBannerThemes img{background-image:url(images/section-icons/themes.png);width:36px;height:34px;}
+.gvBannerSponsors img{background-image:url(images/section-icons/sponsors.gif);width:36px;height:34px;}
+.gvBannerNewPost img{background-image:url(images/section-icons/blog-post.png);width:36px;height:34px;}
+.gvBannerPages img{background-image:url(images/section-icons/pages.png);width:36px;height:34px;}
+.gvBannerLinks img{background-image:url(images/section-icons/links.png);width:36px;height:34px;}
+.gvBannerComments img{background-image:url(images/section-icons/comments.png);width:36px;height:34px;}
+.gvBannerHeader img{background-image:url(images/section-icons/header.png);width:36px;height:34px;}
+.gvBannerModules img{background-image:url(images/section-icons/modules.png);width:36px;height:34px;}
+
+.gv{width: 100%; font-size: 11px; border: 1px solid #EBEBEB;}
+.gv td{padding:1px 5px; border: 1px solid #EBEBEB;}
+.gv th{padding:1px 5px; border: 1px solid #EBEBEB;}
+.gvHeader{background-image: url(images/gridview/header-bg.jpg); text-align: center; height: 22px; color: #000000; font-weight: normal; font-size: 11px;}
+.gvHeader a{color: #333333;}
+.gvHeader a:hover{ text-decoration: underline; color: #000000;}
+.gvRowStyle{border: 1px solid #EBEBEB;}
+.gvRowStyle:hover{border: 1px solid #EBEBEB; background-image: url(images/gridview/hover-bg.jpg);}
+.gvAlternateRowStyle{background-color: #F4F4F4;}
+.gvAlternateRowStyle:hover{background-image: url(images/gridview/hover-bg.jpg);}
+.gvSelected{background-image: url(images/header-bg.jpg); }
+.gvEdit input{font-size:11px;width:98%}
+.gvPagerFont input{font-size: 11px;padding:1px 5px 1px 5px;margin: 2px;background-color:#f4f4f4;background-image: url("images/gridview/atoz-bg.jpg");background-position: -10px;border:1px solid #ccc;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.gvPagerFont:hover input{border: 1px solid #6699cc; background-image: url(images/buttons/button-hover-bg.jpg); color: #000000;}
+.gvPagerFont select{font-size: 11px; margin: 2px;}
+.gvSortAlternatingRowstyle{background-color:#f2f2f2; color: #000000;}
+.gvSortRowStyle{background-color:#f2f2f2; color: #000000;}
+.gvSortAscHeaderStyle{background:url(images/gridview/sort_asc.gif) no-repeat right center;padding-left:5px;}
+.gvSortDescHeaderStyle{background:url(images/gridview/sort_desc.gif) no-repeat right center;padding-left:5px;}
+.gvFooter input{font-size:11px;width:98%;}
+.gvFooter td th{padding:1px 5px;}
+.gvShortcut{width: 11px;height: 11px;background-image: url(images/gridview/shortcut-small.png);background-repeat: no-repeat;background-position: 0px 2px;padding-left: 15px;}
+/* javascript highlight color */
+.gvHighlight{background-color:#ccc;}
+
+/* TREEVIEW ADMIN STYLES ----------------------------------------*/
+.tvSelectedNodeStyle{text-decoration:underline;}
+
+/* AJAX TABS technorati-theme */
+.aTab1 .ajax__tab_header {background:url(images/aspnet-tabs/tab-line-2.png) repeat-x bottom;font-size:12px;display:block;}
+.aTab1 .ajax__tab_header .ajax__tab_outer {background:url(images/aspnet-tabs/tab-2.png) no-repeat left top;border-color:#4b4d4f;color:#222;padding-left:10px;margin-right:0px;}
+.aTab1 .ajax__tab_header .ajax__tab_inner {background:url(images/aspnet-tabs/tab-2.png) no-repeat right top;border-color:#4b4d4f;color:#999;padding:4px 10px 4px 0px;}
+.aTab1 .ajax__tab_hover .ajax__tab_outer {color:#fff;cursor:pointer;background:url(images/aspnet-tabs/tab-2.png) no-repeat 0pt -40px;}
+.aTab1 .ajax__tab_hover .ajax__tab_inner {color:#fff;cursor:pointer;background:url(images/aspnet-tabs/tab-2.png) no-repeat right -40px;}
+.aTab1 .ajax__tab_active .ajax__tab_outer {background:url(images/aspnet-tabs/tab-2.png) no-repeat 0pt -40px;border-bottom-color:#4b4d4f;}
+.aTab1 .ajax__tab_active .ajax__tab_inner {background:url(images/aspnet-tabs/tab-2.png) no-repeat right -40px;color:#fff;border-color:#4b4d4f}
+.aTab1 .ajax__tab_body {font-size:10px;padding:0px 0px 0px 0px;background-color:#ccc;border:solid 1px #4b4d4f;border-top-width:0;}
+.contentTemplate{font-size:11px;padding:20px 10px 20px 10px;color:#000;background-image:url(images/aspnet-tabs/bg.jpg); background-repeat: repeat-x;}
+
+/* DETAILS VIEW ADMIN STYLES ----------------------------------------*/
+/* detailsview default skin styles */
+.dv{width: 100%; border: 0px solid #e9e9e9; background-color: #ccc;}
+.dv td{padding:2px 5px; border: 1px solid #e9e9e9;}
+.dv th{padding:2px 5px; border: 1px solid #e9e9e9;}
+.dvHeader{background-image: url(images/detailsview/header-bg.jpg); text-align: center; height: 22px; color: #000000; font-weight: bold; font-size: 14px;}
+.dvRowStyle{Border: 0px solid #e9e9e9; height: 22px;}
+/*.detailsviewRowStyle:hover{Border: 1px solid #D5D4E1; background-image: url(images/hover-bg.jpg);}*/
+.dvAlternateRowStyle{background-color: #ccc; height: 22px;}
+.dvAlternateRowStyle:hover{background-image: url(images/hover-bg.jpg);}
+.dvFieldHeader{width:170px;max-width: 170px !important;}
+.currentPW{margin-left: 15px;padding:0px 3px 0px 3px;font-size: 12px;border:0px solid #ccc;background-color:#f4f4f4;}
+
+/* USER MODAL POPUP PAGE ----------------------------------------*/
+.modalPG{background-color:#999;padding:20px;}
+.modalPG2{background-color:#999;padding:20px;}
+.modalSuccessMsg{}
+
+/* GreyBox Styles --------------------------------------*/ 
+#GB_overlay{background-color: black;position: absolute;margin: auto;top: 0;left: 0;z-index: 100;}
+#GB_window{left: 0;top: 0;font-size: 1px;position: absolute;overflow: visible;z-index: 150;}
+#GB_window .content{width: auto;margin: 0;padding: 0;}
+#GB_frame{border: 0;margin: 0;padding: 0;overflow: auto;white-space: nowrap;}
+.GB_Gallery{margin: 0 22px 0 22px;}
+.GB_Gallery .content{background-color: #fff;border: 3px solid #000;}
+.GB_header{top: 10px;left: 0;margin: 0;z-index: 500;position: absolute;border-bottom: 1px solid #000;border-top: 1px solid #000;}
+.GB_header .inner{background-color: #333;font-family: Arial, Verdana, sans-serif;padding: 2px 20px 2px 20px;}
+.GB_header table{margin: 0;width: 100%;border-collapse: collapse;}
+.GB_header .caption{text-align: left;color: #eee;white-space: nowrap;font-size: 20px;}
+.GB_header .close {text-align: right;}
+.GB_header .close img {z-index: 500;cursor: pointer;}
+.GB_header .middle{white-space: nowrap;text-align: center;}
+#GB_middle{color: #eee;}
+#GB_middle img{cursor: pointer;vertical-align: middle;}
+#GB_middle .disabled{cursor: default;}
+#GB_middle .left{padding-right: 10px;}
+#GB_middle .right{padding-left: 10px;}
+.GB_Window .content{background-color: #fff;border: 2px solid #000;border-top: none;}
+.GB_Window .header{border-bottom: 1px solid #000;border-top: 0px solid #000;border-left: 1px solid #000;border-right: 1px solid #000;margin: 0;height: 22px;font-size: 12px;padding: 3px 0;color: #fff;}
+.GB_Window .caption{font-size: 12px;text-align: left;font-weight: normal;white-space: nowrap;padding-right: 20px;padding-left: 15px;}
+.GB_Window .close{text-align: right; }
+.GB_Window .close span{font-size: 12px;cursor: pointer;}
+.GB_Window .close img{cursor: pointer;padding: 0 3px 0 0;}
+.GB_Window .on{border-bottom: 1px solid #333;}
+.GB_Window .click{border-bottom: 1px solid white;}

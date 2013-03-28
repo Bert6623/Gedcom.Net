@@ -1,0 +1,15 @@
+﻿User-agent: *
+Disallow: /admin/
+Disallow: /controls/
+Disallow: /email_templates/
+Disallow: /images/
+Disallow: /js/
+Disallow: /themes/
+Disallow: /members/
+Disallow: /userfiles/
+Disallow: /file-not-found.htm
+Disallow: /generic-error-page.htm
+Disallow: /no-access.htm
+Disallow: /login.aspx
+Disallow: /register.aspx
+Disallow: /recover-password.aspx
